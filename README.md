@@ -5,3 +5,12 @@ Object detection builds a bounding box for each detected object in the image, bu
 Instead, IMAGE SEGMENTATION is a technique that creates a pixel-wise mask for each detected object in the image and so can help us to obtain a far more granular understanding of the objects in the image.
 
 ![alt text](https://github.com/buropas/Image_Segmentation/blob/main/out_segm.png?raw=true)
+
+Folder content:
+
+- Image Segmentation (Instance Segmentation) with Mask R-CNN (Jupyter Notebook)
+- mask_rcnn_inception_v2_coco_2018_01_28.pbtxt (Mask R-CNN configuration file)
+- out_segm.png (output image from Instance Segmentation task)
+- segment_img.jpg (input image of Instance Segmentation task)
+
+
