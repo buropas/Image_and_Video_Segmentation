@@ -18,9 +18,11 @@ Image and Video segmentation has many applications, for instance in self-driving
 Folder content:
 
 - Image Segmentation (Instance Segmentation) with Mask R-CNN (Jupyter Notebook)
+- Video Object Segmentation with Mask R-CNN (Jupyter Notebook)
 - mask_rcnn_inception_v2_coco_2018_01_28.pbtxt (Mask R-CNN configuration file)
 - out_segm.png (output image from Instance Segmentation task)
 - segment_img.jpg (input image of Instance Segmentation task)
 - test.mp4 (test video to perform Video Object Segmentation)
+- segm_out_video.avi (output video from Video Segmentation task)
 
 
