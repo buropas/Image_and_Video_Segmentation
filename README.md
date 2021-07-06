@@ -15,7 +15,7 @@ Image and Video segmentation has many applications, for instance in self-driving
 
 ![alt text](https://github.com/buropas/Image_Segmentation/blob/main/out_segm.png?raw=true)
 
-Folder content:
+## Folder content:
 
 - Image Segmentation (Instance Segmentation) with Mask R-CNN (Jupyter Notebook)
 - Video Object Segmentation with Mask R-CNN (Jupyter Notebook)
@@ -25,4 +25,7 @@ Folder content:
 - test.mp4 (test video to perform Video Object Segmentation)
 - segm_out_video.avi (output video from Video Segmentation task)
 
-
+## Technologies      
+Instance Segmentation Algorithm: Mask R-CNN   
+Libraries: OpenCV, Numpy, Matplotlib    
+Language: Python
