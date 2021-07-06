@@ -14,5 +14,6 @@ Folder content:
 - mask_rcnn_inception_v2_coco_2018_01_28.pbtxt (Mask R-CNN configuration file)
 - out_segm.png (output image from Instance Segmentation task)
 - segment_img.jpg (input image of Instance Segmentation task)
+- test.mp4 (test video to perform Video Object Segmentation)
 
 
