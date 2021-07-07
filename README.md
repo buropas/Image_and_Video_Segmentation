@@ -3,11 +3,11 @@
 Object detection builds a bounding box for each detected object in the image, but it tells us nothing about the shape of the object. We only get the set of bounding box coordinates.
 
 Instead, IMAGE SEGMENTATION is a technique that creates a pixel-wise mask for each detected object in the image and so can help us to obtain a far more granular understanding of the objects in the image.  This helps in understanding the image at a much lower level, i.e., the pixel level.   
-We know an image is nothing but a collection of pixels. Image segmentation is the process of classifying each pixel in an image belonging to a certain class and hence can be thought of as a classification problem per pixel.   
+Image segmentation is the process of classifying each pixel in an image belonging to a certain class and hence can be thought of as a classification problem per pixel.   
 There are two types of segmentation techniques:
 
 - SEMANTIC SEGMENTATION, that doesn't distinguish across different instances of the same object. For example if there are 2 cats in an image, semantic segmentation gives same label to all the pixels of both cats.   
-- INSTANCE SEGMENTATION, which differs from semantic segmentation in the sense that it gives a unique label to every instance of a particular object in the image, even if the objects belong to the same class.   
+- INSTANCE SEGMENTATION, which differs from semantic segmentation in the sense that it gives a unique label to every instance of a particular object in the image. In this case, if there are 2 cats in an image, segmentation gives a specific label to the pixels of one cat and a different label to the pixels of the other cat.      
 
 Furthermore, the same idea is applied in Video Object Segmentation. 
 
