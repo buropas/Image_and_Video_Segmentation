@@ -7,9 +7,9 @@ Image segmentation is the process of classifying each pixel in an image belongin
 There are two types of segmentation techniques:
 
 - SEMANTIC SEGMENTATION, that doesn't distinguish across different instances of the same object. For example if there are 2 cats in an image, semantic segmentation gives same label to all the pixels of both cats.   
-- INSTANCE SEGMENTATION, which differs from semantic segmentation in the sense that it gives a unique label to every instance of a particular object in the image. In this case, if there are 2 cats in an image, segmentation gives a specific label to the pixels of one cat and a different label to the pixels of the other cat.      
+- INSTANCE SEGMENTATION, which differs from semantic segmentation in the sense that it gives a unique label to every instance of a particular object in the image. In this case, if there are 2 cats in an image, instance segmentation gives a specific label to the pixels of one cat and a different label to the pixels of the other cat.      
 
-Furthermore, the same idea is applied in Video Object Segmentation. 
+Furthermore, the same idea of segmentation is applied in Video Segmentation. 
 
 Again, VIDEO OBJECT SEGMENTATION is a binary labeling problem aiming to separate foreground object(s) from the background region of a video.   
 The goal is always to automatically segment and generate pixel-wise masks for every detected object in a video.  
